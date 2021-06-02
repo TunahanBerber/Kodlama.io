@@ -8,8 +8,8 @@ public class GoogleAccountManager {
 	
 	//Bu bilgilerin GoogleAccountManager'da var olan kullanıcıların bilgileri olduğunu farz edelim
 	//Değer olarak test için Main'de gireceğim parametreleri girdim..
-	private String googleMailAddress = "tunahanberber123@gmail..com";
-	private String googlePassword = "789789Ab,";
+	private String googleMailAddress = "tunahanberber@gmail.com";
+	private String googlePassword = "1234567";
 	
 	
 	//GoogleAccountManager kendi kontrol ediyor buraya gelen adresler ve şifreler google adresi ve şifresi mi değil mi diye
