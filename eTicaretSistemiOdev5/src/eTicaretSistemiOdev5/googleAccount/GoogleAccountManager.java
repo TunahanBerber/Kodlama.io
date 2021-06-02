@@ -2,30 +2,30 @@ package eTicaretSistemiOdev5.googleAccount;
 
 public class GoogleAccountManager {
 	
-	//Dışarıdan sistemime GoogleAccountManager class'ını dahil ettiğimi düşünelim.
+	//DÄ±ÅŸarÄ±dan sistemime GoogleAccountManager class'Ä±nÄ± dahil ettiÄŸimi dÃ¼ÅŸÃ¼nelim.
 	
-	//GoogleAccountManager dışarıdan eklendi. Ben sınıfa bu sınıfın içerisinde ki kodlara müdahale edemiyorum.
+	//GoogleAccountManager dÄ±ÅŸarÄ±dan eklendi. Ben sÄ±nÄ±fa bu sÄ±nÄ±fÄ±n iÃ§erisinde ki kodlara mÃ¼dahale edemiyorum.
 	
-	//Bu bilgilerin GoogleAccountManager'da var olan kullanıcıların bilgileri olduğunu farz edelim
-	//Değer olarak test için Main'de gireceğim parametreleri girdim..
-	private String googleMailAddress = "enesmalik2006@gmail.com";
-	private String googlePassword = "123456enes";
+	//Bu bilgilerin GoogleAccountManager'da var olan kullanÄ±cÄ±larÄ±n bilgileri olduÄŸunu farz edelim
+	//DeÄŸer olarak test iÃ§in Main'de gireceÄŸim parametreleri girdim..
+	private String googleMailAddress = "tunahanberber123@gmail..com";
+	private String googlePassword = "789789Ab,";
 	
 	
-	//GoogleAccountManager kendi kontrol ediyor buraya gelen adresler ve şifreler google adresi ve şifresi mi değil mi diye
+	//GoogleAccountManager kendi kontrol ediyor buraya gelen adresler ve ÅŸifreler google adresi ve ÅŸifresi mi deÄŸil mi diye
 	public void login(String mailAddress,String password) {
 		
 		if(!googleMailAddress.equals(mailAddress)) {
-			System.out.println("Girilen google mail adresi yanlış!");
+			System.out.println("Girilen google mail adresi yanlÄ±ÅŸ!");
 		}
 		else if(!googlePassword.equals(password)) {
-			System.out.println("Girilen google şifresi yanlış!");
+			System.out.println("Girilen google ÅŸifresi yanlÄ±ÅŸ!");
 		}
 		else if(!googleMailAddress.equals(mailAddress) && !googlePassword.equals(password)) {
-			System.out.println("Girilen google şifresi ve mail adresi yanlış!");
+			System.out.println("Girilen google ÅŸifresi ve mail adresi yanlÄ±ÅŸ!");
 		}
 		else {
-			System.out.println("Kulllanıcı başarılı bir şekilde google hesabıyla login oldu.");
+			System.out.println("KulllanÄ±cÄ± baÅŸarÄ±lÄ± bir ÅŸekilde google hesabÄ±yla login oldu.");
 		}
 		
 	}
